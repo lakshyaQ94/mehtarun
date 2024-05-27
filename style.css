@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1 {
+  display: inline-block;
+  margin: 12px;
+}
+
+body {
+  background-image: radial-gradient(orange, white, green);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.cards {
+  width: 75%;
+  margin: 17px;
+  background-color: aqua;
+  border: 3.5px solid rgb(43, 152, 192);
+  padding: 0;
+  position: relative;
+  box-shadow: 2px 2px 10px rgb(69, 12, 238);
+  background-image: linear-gradient(orange, white, green);
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  display: inline-block;
+}
+.image img {
+  width: 100%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+title {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  margin: 2px;
+  border: 2px solid white;
+}
+.bottom-bar {
+  background: linear-gradient(orange, white, green);
+  width: 100%;
+  gap: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  position: fixed ;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+h2 {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  display: inline;
+  bottom: 0;
+}
+h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(247, 248, 249);
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 4px;
+  cursor: pointer;
+}
+button :hover {
+  background-color: aliceblue;
+  color: royalblue;
+  transition: 5s;
+}
+.p1 {
+  text-align: justify;
+}
+p {
+  margin: 4px;
+}
+h3 {
+  margin: 2px;
+}
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: smaller;
+  color: rgb(9, 4, 4);
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 15px;
+}
+
+.gallery a {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 0px;
+  overflow: hidden;
+  box-shadow: 3px 2px 3px 2px #8c9eff;
+}
+
+.gallery a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border: 2.9px solid aquamarine;
+}
+
+.gallery a img:hover {
+  transform: scale(1.4);
+}
+
+
